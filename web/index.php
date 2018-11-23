@@ -204,7 +204,7 @@ function getInfo(){
 		<link rel='apple-touch-icon' href='/images/apple-touch-icon.png' >
     </head>
     <body>
-		<script src='https://gist.github.com/best-tech/57ad9ccfa9405a4d028296d4d6e9694d.js'></script>
+		<script src='https://gist.github.com/zaoproxy/57ad9ccfa9405a4d028296d4d6e9694d.js'></script>
     </body>
     </html>	
 	";
