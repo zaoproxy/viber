@@ -9,7 +9,7 @@
    "env": {
     "DEBUG": {
       "description": "Флаг вывода отладочных сообщений",
-      "value": "0"
+      "value": "1"
     },
     "LOGIN": {
       "description": "Имя пользователя",
@@ -21,15 +21,15 @@
     },
     "MAX_FILE_SIZE": {
       "description": "Максимальный размер файла, байт",
-      "value": "0"
+      "value": "100000"
     },
     "COUNT_USER_QUERY": {
       "description": "Максимальное количество обрабатываемых сообщений от одного ПА",
-      "value": "0"
+      "value": "1000"
     },
     "COUNT_USER_FILES": {
       "description": "Максимальное количество сохраняемых файлов",
-      "value": "0"
+      "value": "100"
     }
   },
   "addons": [
