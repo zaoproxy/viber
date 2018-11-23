@@ -352,7 +352,7 @@ function auth($WorkWithFile=false) {
 	global $paid;
 	
 	if (!$paid) {
-		header('WWW-Authenticate: Basic realm="viber-1c.herokuapp.com - need to login');
+		header('WWW-Authenticate: Basic realm="newbotdt.herokuapp.com - need to login');
 		header('HTTP/1.0 401 Unauthorized');
 		echo "for login you need paid \n";
 		die("Access forbidden");
@@ -367,14 +367,14 @@ function auth($WorkWithFile=false) {
 	$UserAccount = getUserAccount($paid,$WorkWithFile);
 	
 	if (($login||$pass) && !isset($_SERVER['PHP_AUTH_USER'])||!isset($_SERVER['PHP_AUTH_PW'])) {
-		header('WWW-Authenticate: Basic realm="viber-1c.herokuapp.com - need to login');
+		header('WWW-Authenticate: Basic realm="newbotdt.herokuapp.com - need to login');
 		header('HTTP/1.0 401 Unauthorized');
 		echo "Вы должны ввести корректный логин и пароль для получения доступа к ресурсу \n";
 		die("Access forbidden");
 	}
 	
 	if (!$login=$currenntLogin || !$currenntPass=$pass) {
-		header('WWW-Authenticate: Basic realm="viber-1c.herokuapp.com - need to login');
+		header('WWW-Authenticate: Basic realm="newbotdt.herokuapp.com - need to login');
 		header('HTTP/1.0 401 Unauthorized');
 		echo "Не верный логин или пароль \n";
 		die("Access forbidden");
