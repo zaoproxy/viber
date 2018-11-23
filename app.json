@@ -3,7 +3,7 @@
   "description": "Viber буфер. Промежуточное хранение Вайбер сообщений.",
   "image": "heroku/php",
   "repository": "https://github.com/zaoproxy/viber",
-  "website": "http://4098.ru/viber-1c",
+  "website": "https://newbotdt.herokuapp.com/",
   "logo": "https://github.com/zaoproxy/viber/blob/master/web/images/logo.jpg?raw=true",
   "keywords": ["viber", "1c", "1c-enterprise"],
    "env": {
