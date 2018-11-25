@@ -470,7 +470,9 @@ function getConnectionDB()
 	print($connectionString);
 	print('3333333');
 	$dbName = $arr[0];
-	
+	  $mongo_url = parse_url(getenv("MONGO_URL"));
+  $dbname = str_replace("/", "", $mongo_url["path"]);
+
 	if (!$dbName) {
 		die('no db name');
 	}
