@@ -464,8 +464,11 @@ function getConnectionDB()
 	$connectionString =  getenv('MONGODB_URI');
 	$connectionString = str_replace("'","",$connectionString);
 	$arr = array_reverse(explode('/', $connectionString));
+	print('11111');
+	print(getenv('MONGODB_URI'));
+	print('22222');
 	print($connectionString);
-	print('1111');
+	print('3333333');
 	$dbName = $arr[0];
 	
 	if (!$dbName) {
